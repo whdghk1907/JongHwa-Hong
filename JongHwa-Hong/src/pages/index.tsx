@@ -1,11 +1,9 @@
 import React,{FunctionComponent} from "react";
-import {Link} from 'gatsby'
+import Header from "components/index/Header";
 
 const IndexPage: FunctionComponent = () => {
     return (
-        <div>
-            <Link to="/info/">To Info</Link>
-        </div>
+        <Header />
     )
 }
 
